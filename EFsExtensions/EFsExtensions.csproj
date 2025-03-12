@@ -10,6 +10,8 @@
     <DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>
     <AssemblyVersion>1.4.0.70</AssemblyVersion>
     <FileVersion>1.4.0.70</FileVersion>
+    <Authors>Marek Vajgl</Authors>
+    <Description>Extensions for MSFS</Description>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
