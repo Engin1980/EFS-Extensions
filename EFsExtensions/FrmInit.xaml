@@ -6,6 +6,7 @@
         xmlns:local="clr-namespace:Eng.EFsExtensions.App"
         xmlns:converters="clr-namespace:Eng.EFsExtensions.App.Converters"
         mc:Ignorable="d"
+        Icon="/Imgs/efsextensions.ico"
         Title="FrmInit" Height="600" Width="1200" Initialized="Window_Initialized">
   <Window.Resources>
     <converters:BoolToRedGreenConverter x:Key="BoolToRedGreenConverter" />

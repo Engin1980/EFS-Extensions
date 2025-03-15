@@ -12,6 +12,7 @@
     <FileVersion>1.4.0.70</FileVersion>
     <Authors>Marek Vajgl</Authors>
     <Description>Extensions for MSFS</Description>
+    <ApplicationIcon>Imgs\efsextensions.ico</ApplicationIcon>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -27,6 +28,15 @@
     <EmbeddedResource Remove="ModulesManagement\**" />
     <None Remove="ModulesManagement\**" />
     <Page Remove="ModulesManagement\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Imgs\efsextensions.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Imgs\efsextensions.ico" />
+    <Resource Include="Imgs\efsextensions.png" />
   </ItemGroup>
 
   <ItemGroup>
